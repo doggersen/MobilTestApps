@@ -5,10 +5,15 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Dennne app skal kunne konvertere et eller andet" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Verdens mest simple lommeregner" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Label Text="Hej Jimmy" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Dette er en test-app, den kan ingenting!!!" FontSize="16" Padding="30,0,30,0"/>
+        <Entry Placeholder="skriv tal 1 her" />
+        <Entry Placeholder="skriv tal 2 her" />
+        <Button Text="plus" />
+        <Button Text="minus" />
+        
+        <Label Text="Resultat vises nedenfor" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="her skal resultatet stå" FontSize="16" Padding="30,0,30,0"/>
         <Label FontSize="16" Padding="30,24,30,0">
             <Label.FormattedText>
                 <FormattedString>
