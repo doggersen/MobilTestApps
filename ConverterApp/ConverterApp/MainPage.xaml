@@ -2,18 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ConverterApp.MainPage">
+            
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Verdens mest simple lommeregner" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Entry Placeholder="skriv tal 1 her" />
-        <Entry Placeholder="skriv tal 2 her" />
-        <Button Text="plus" />
-        <Button Text="minus" />
+        <Entry x:Name="entryTal1" Placeholder="skriv tal 1 her" />
+        <Entry x:Name="entryTal2" Placeholder="skriv tal 2 her" />
+        <Button Clicked="Button_Clicked" Text="plus" />
+        <Button x:Name="btnMinus" Clicked="btnMinus_Clicked" Text="minus" />
         
-        <Label Text="Resultat vises nedenfor" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="her skal resultatet stå" FontSize="16" Padding="30,0,30,0"/>
+        
+        <Label x:Name="labelResultat" Text="Resultat vises nedenfor" FontSize="Title" Padding="30,10,30,10"/>
+        <Label x:Name="finalResult" Text="her skal resultatet stå" FontSize="16" Padding="30,0,30,0"/>
         <Label FontSize="16" Padding="30,24,30,0">
             <Label.FormattedText>
                 <FormattedString>

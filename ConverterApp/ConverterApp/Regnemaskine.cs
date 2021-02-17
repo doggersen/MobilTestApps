@@ -1,25 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConverterApp
+﻿namespace ConverterApp
 {
-    class Regnemaskine
+    internal class Regnemaskine
     {
-        public void Plus (int input1, int input2)
+        public string Plus(int input1, int input2)
         {
             int result = input1 + input2;
 
-
+            return result.ToString();
         }
 
-        public void Minus(int input1, int input2)
+        //har sat denne metode som static. så den er nemmere at bruge end den ovenover! :)
+        public static string Minus(int input1, int input2)
         {
             int result = input1 - input2;
 
-
+            return result.ToString();
         }
-
-
     }
 }
