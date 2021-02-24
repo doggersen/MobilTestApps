@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterApp.Android", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterApp.iOS", "ConverterApp\ConverterApp.iOS\ConverterApp.iOS.csproj", "{88B714AE-7760-4429-B96F-68C9E76830A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterApp", "ConverterApp\ConverterApp\ConverterApp.csproj", "{E4FB0C24-8158-4006-9921-B44B714F8ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterApp", "ConverterApp\ConverterApp\ConverterApp.csproj", "{E4FB0C24-8158-4006-9921-B44B714F8ED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
